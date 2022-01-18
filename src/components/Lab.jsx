@@ -74,10 +74,84 @@ export const Lab =() =>{
                
                <div className="top_tests">
                <h4>Top Booked Diagnostic Tests</h4>
-               
+               <br />
+               <div className="test_flex">
+                   
+                   <div className="test_div">
+                       <h6>Covid Antibody IGG</h6>
+                       <p>Known as Covid Clia blood serum</p>
+                       <p>E-Reports in 2 days</p>
+                       <h5>₹ 1500</h5>
+                       <hr />
+                       <p>ADD</p>
+                   </div>
+                   <div className="test_div">
+                   <h6>Fasting Blood Sugar</h6>
+                       <p>Known as Glucose fasting blood</p>
+                       <p>E-Reports on next day</p>
+                       <h5>₹ 150</h5>
+                       <hr />
+                       <p>ADD</p>
+                   </div>
+                   <div className="test_div">
+                   <h6>Beta HCG</h6>
+                       <p>Known as Beta Hcg Automated Blood</p>
+                       <p>E-Reports on next day</p>
+                       <h5>₹ 315</h5>
+                       <hr />
+                       <p>ADD</p>
+                   </div>
+                   <div className="test_div">
+                   <h6>Vitamin B12</h6>
+                       <p>Known as Vitamin B12 Conventional Blood</p>
+                       <p>E-Reports on next day</p>
+                       <h5>₹ 490</h5>
+                       <hr />
+                       <p>ADD</p>
+                   </div>
+                   <div className="test_div">
+                   <h6>HbA1c</h6>
+                       <p>Known as Glycosylated Haemoglobin Blood</p>
+                       <p>E-Reports on next day</p>
+                       <h5>₹ 550</h5>
+                       <hr />
+                       <p>ADD</p>
+                   </div>
+                   <div className="test_div">
+                   <h6>Liver Function Test</h6>
+                       <p>Known as Liver Function Tests Blood</p>
+                       <p>E-Reports on next day</p>
+                       <h5>₹ 400</h5>
+                       <hr />
+                       <p>ADD</p>
+                   </div>
+               </div>
                   
                  
                </div>
+               </Container>
+<br />
+               <Container>
+                   <div className="health_div">
+                       <h4>Find Tests by Health Concern</h4>
+                       <br />
+                       <div className="health_img">
+                           <div className="h_img">
+                               <img src={require("./Images/fever.png")} alt="" />
+                               <p>Fever</p>
+                           </div>
+                           <div className="h_img"> <img src={require("./Images/diabaties.png")} alt="" />
+                           <p>Diabaties</p></div>
+                           <div className="h_img"> <img src={require("./Images/skin.png")} alt="" />
+                           <p>Skin</p></div>
+                           <div className="h_img"> <img src={require("./Images/kidney.png")} alt="" />
+                           <p>Kidney</p></div>
+                           <div className="h_img"> <img src={require("./Images/digestion.png")} alt="" />
+                           <p>Digestion</p></div>
+                           <div className="h_img"> <img src={require("./Images/cancer.png")} alt="" />
+                           <p>Cancer</p></div>
+                       </div>
+                   </div>
                </Container>
         </div>
     )

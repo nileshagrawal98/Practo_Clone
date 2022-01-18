@@ -67,7 +67,63 @@ width: 26%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 3px;
-    overflow: scroll;
+    gap: 6px;
+   
 }
 
+.test_div{
+    width: 18%;
+    
+    border: 0.5px solid rgb(243, 241, 241);
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.test_div:hover{
+   box-sizing: border-box;
+   transition: 0.5s;
+   
+   border-color: darkgray;
+}
+
+.test_div > p:nth-child(2){
+font-size: 12px;
+color: rgb(92, 78, 78);
+}
+
+.test_div > p:nth-child(3){
+    font-size: 14px;
+    color: rgb(92, 91, 91);
+}
+
+.test_div > p:nth-child(6){
+    font-size: 14px;
+    color: rgb(92, 91, 91);
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(79, 197, 218);
+}
+.health_img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:5px;
+}
+
+.h_img > img{
+    width:75%;
+}
+
+.health_div > h4{
+    text-align: left;
+}
+
+.health_img p{
+    padding-top: 1%;
+    font-weight: bolder;
+}
+.health_img p:hover{
+    color:rgb(79, 197, 218)
+}
