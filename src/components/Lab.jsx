@@ -1,8 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import  Carousel from "react-bootstrap/Carousel";
+import { useState } from "react";
 import "./Lab.css"
 export const Lab =() =>{
+
+
     return(
         <div>
             {/*-------slide show started------*/}
@@ -75,6 +78,7 @@ export const Lab =() =>{
                <div className="top_tests">
                <h4>Top Booked Diagnostic Tests</h4>
                <br />
+               
                <div className="test_flex">
                    
                    <div className="test_div">
@@ -82,15 +86,15 @@ export const Lab =() =>{
                        <p>Known as Covid Clia blood serum</p>
                        <p>E-Reports in 2 days</p>
                        <h5>₹ 1500</h5>
-                       <hr />
-                       <p>ADD</p>
+                       
+                       <div></div><p>ADD</p>
                    </div>
                    <div className="test_div">
                    <h6>Fasting Blood Sugar</h6>
                        <p>Known as Glucose fasting blood</p>
                        <p>E-Reports on next day</p>
                        <h5>₹ 150</h5>
-                       <hr />
+                       <div></div>
                        <p>ADD</p>
                    </div>
                    <div className="test_div">
@@ -98,7 +102,7 @@ export const Lab =() =>{
                        <p>Known as Beta Hcg Automated Blood</p>
                        <p>E-Reports on next day</p>
                        <h5>₹ 315</h5>
-                       <hr />
+                       <div></div>
                        <p>ADD</p>
                    </div>
                    <div className="test_div">
@@ -106,7 +110,7 @@ export const Lab =() =>{
                        <p>Known as Vitamin B12 Conventional Blood</p>
                        <p>E-Reports on next day</p>
                        <h5>₹ 490</h5>
-                       <hr />
+                       <div></div>
                        <p>ADD</p>
                    </div>
                    <div className="test_div">
@@ -114,7 +118,7 @@ export const Lab =() =>{
                        <p>Known as Glycosylated Haemoglobin Blood</p>
                        <p>E-Reports on next day</p>
                        <h5>₹ 550</h5>
-                       <hr />
+                       <div></div>
                        <p>ADD</p>
                    </div>
                    <div className="test_div">
@@ -122,12 +126,12 @@ export const Lab =() =>{
                        <p>Known as Liver Function Tests Blood</p>
                        <p>E-Reports on next day</p>
                        <h5>₹ 400</h5>
-                       <hr />
+                       <div></div>
                        <p>ADD</p>
                    </div>
+                   
                </div>
-                  
-                 
+               
                </div>
                </Container>
 <br />
@@ -151,6 +155,110 @@ export const Lab =() =>{
                            <div className="h_img"> <img src={require("./Images/cancer.png")} alt="" />
                            <p>Cancer</p></div>
                        </div>
+                   </div>
+               </Container>
+
+               <br />
+               <Container >
+                   <div className = "grey_bar">
+                   
+                   
+                   </div>
+
+                   <br />
+                   <h4 className="left">Top booked Medical tests</h4>
+                   <p className="left">Get 10% Health Cashback*<strong>T&C</strong></p>
+                   <br />
+                   <div className="test_medical">
+                      <div className="tests">
+                      
+                          <div className="flex">
+                          
+                              <img src="https://www.practo.com/tests/public/icons/testprofiles/lipid_profile.png"/>
+                             <h5>Lipid Profile</h5>
+                             </div>
+                             
+                             <div><h6>Cholesterol LDL Test</h6>
+                             <p>Also known as Cholesterol Ldl Enzymatic Colorimetric Method Blood</p>
+                             </div>
+                             
+                             <div><h6>Cholesterol HDL</h6>
+                             <p>Also known as Cholesterol Hdl Enzymatic Colorimetric Method Blood</p>
+                             </div>
+                             
+                             <div><h6>Total Cholesterol Test</h6>
+                             <p>Also known as Cholesterol test</p>
+                             </div>
+                             
+                             <div><h6>Triglycerides Test</h6>
+                             <p>Also known as Triglycerides Blood</p>
+                             </div>
+                             <br />
+                             <button >BOOK NOW</button>
+                          
+                      </div>
+                      <div className="tests">
+                      
+                      <div className="flex">
+                     
+
+                              <img src="https://www.practo.com/tests/public/icons/testprofiles/liver_profile.png"/>
+                             <h5>Liver Profile</h5>
+                            
+                             </div>
+                             
+                             <div><h6>Cholesterol LDL Test</h6>
+                             <p>Also known as Cholesterol Ldl Enzymatic Colorimetric Method Blood</p>
+                             
+                             </div>
+                             <div><h6>Cholesterol HDL</h6>
+                             <p>Also known as Cholesterol Hdl Enzymatic Colorimetric Method Blood</p>
+                             
+                             </div>
+                             <div><h6>Total Cholesterol Test</h6>
+                             <p>Also known as Cholesterol test</p>
+                             
+                             </div>
+                             <div><h6>Triglycerides Test</h6>
+                             <p>Also known as Triglycerides Blood</p>
+                             
+                             </div>
+                             
+                             <br />
+
+                             <button >BOOK NOW</button>
+                         
+                      </div>
+                      <div className="tests">
+                      
+                      <div className="flex">
+                          
+                              <img src="https://www.practo.com/tests/public/icons/testprofiles/blood_sugar.png"/>
+                             <h5>Blood Sugar</h5>
+                            
+                             </div>
+                         
+                             <div><h6>Cholesterol LDL Test</h6>
+                             <p>Also known as Cholesterol Ldl Enzymatic Colorimetric Method Blood</p>
+                            
+                             </div>
+                             <div><h6>Cholesterol HDL</h6>
+                             <p>Also known as Cholesterol Hdl Enzymatic Colorimetric Method Blood</p>
+                             
+                             </div>
+                             <div><h6>Total Cholesterol Test</h6>
+                             <p>Also known as Cholesterol test</p>
+                             
+                             </div>
+                             <div><h6>Triglycerides Test</h6>
+                             <p>Also known as Triglycerides Blood</p>
+                             </div>
+                             <br />
+
+                             <button >BOOK NOW</button>
+                          
+                      
+                   </div>
                    </div>
                </Container>
         </div>
