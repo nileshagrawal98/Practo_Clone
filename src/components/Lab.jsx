@@ -159,11 +159,12 @@ export const Lab =() =>{
                </Container>
 
                <br />
-               <Container >
-                   <div className = "grey_bar">
-                   
-                   
+
+               <div className = "grey_bar">
                    </div>
+               <Container >
+                   
+               
 
                    <br />
                    <h4 className="left">Top booked Medical tests</h4>
@@ -261,6 +262,110 @@ export const Lab =() =>{
                    </div>
                    </div>
                </Container>
+
+               
+              <br />
+              <br />
+               <img className="d-block w-100" src= {require("./Images/work_with_us.png")} alt="img" />
+               <br />
+               <Container>
+               <div>
+                   <h2>How it works?</h2>
+                   <br />
+                   
+                   <div className="written_flex">
+                       <p>Search for tests and packages and seamlessly book a home sample collection.</p>
+                       <div className="small_line"></div>
+                       <p>We will send a certified professional to your place to assist you with the sample collection</p>
+                       <div className="small_line"></div>
+                       <p>We will email you the reports. You can also access your reports within your account on the Practo app</p>
+                   </div>
+                   <br />
+               </div>
+               </Container>
+
+
+               <div className="back_grey">
+                   <Container>
+                   <br />
+                   <h2>We do great</h2>
+                   <br />
+                   <br />
+
+                   <div className="great_flex">
+                       <div>
+                           <img src="https://www.practo.com/tests/public/icons/dogreat/user.png?1563954988" />
+                          <br />
+                           <h3>15 Million users every month</h3>
+                       </div>
+                       <div> 
+                           <img src="https://www.practo.com/tests/public/icons/dogreat/briefcase.png?1563954997" />
+                           <br />
+                           <h3>Trusted by 2,00,000 professionals</h3>
+                           </div>
+                       <div> 
+                           <img src="https://www.practo.com/tests/public/icons/dogreat/location.png?1563955004" />
+                           <h3>We serve in 9 cities</h3>
+                            </div>
+                   </div>
+                   <br />
+                   <br />
+                   </Container>
+               </div>
+
+
+               <Container className="h3">
+                   <br />
+                   <h2>Thousands of Happy Customers</h2>
+                   <br />
+                   
+                   <Carousel  interval={2000}>
+                       <Carousel.Item>
+
+                           <h3>"Very professional phlebo. Excellent job in collecting the sample. No pain atvall. Got my report also within 24 hours</h3>
+                           
+                      <p className="font">Malathi Ganapathy</p>
+                      <br />
+                       </Carousel.Item>
+                       <Carousel.Item>
+                           <h3>"Everything went very wel and smoothly. Technician was right on time. Really happy with the service</h3>
+                           
+                           <p className="font">Ashish Garnaik</p>
+
+                           <br />
+                       </Carousel.Item>
+                       <Carousel.Item>
+                           <h3>"Good service, Practo is avoiding to stand in que for health checkups</h3>
+                           
+                            <p className="font">Lalita Hegde</p>
+                            <br />
+                       </Carousel.Item>
+                       
+                   </Carousel>
+                   
+               </Container>
+
+
+
+               <div className = "grey_bar">
+                   </div>
+                   <br />
+               <Container>
+                  <div className="last_div">
+                   <p>Book <strong>Diagnostic tests</strong> near you with Practo Associate Labs, your online lab test service provider for diagnostic, medical tests and health checkup packages</p>
+                   <p>Get all the benefits of <strong>diagnostic centre</strong> and <strong>pathology labs</strong> right from the comfort of your home. With a phlebotomy team to ensure speedy home sample collection, and diagnostic services ranging from individual tests to complete health checkup packages for Men, Women, Senior Citizens & Corporates. Practo Associate Labs takes care of all your diagnostic needs.
+</p>
+                   <p><strong>Wide Selection of Tests:</strong>Wide Selection of Tests: Practo Associate Labs covers a wide array of tests like <strong>blood sugar tests, thyroid tests, pregnancy tests, allergy tests, lipid profile, liver profile, platelet count, VDRL test, vitamin B12 deficiency test and more</strong>. Get details of all these tests such as blood test cost, when to take the tests, why it is required, who should take the test and what to do before taking the blood tests at home.</p>
+                   <p><strong>Sample Collection at Home:</strong>Sample Collection at Home: Book blood tests online from your home and our expert team of Practo Associate Labs technicians will arrive at the pre-scheduled time to pick up your sample. Once you get a diagnostic test done, you will receive your reports online.</p>
+                   <p><strong>Digital Reports:</strong> Get all your diagnostic reports emailed directly to you with detailed blood test reports & secure storage to easily access your medical records online.</p>
+                   <p> <strong>Full Body Health Checkup:</strong> Keep your health and well being in check with exclusive Health Checkup Packages like Men’s Health Package, Women’s Health Package, Vitamin Package, Health Package for Corporates, Diabetes Packages, Packages for Senior Citizens & more. Get full details of all tests available in a package when booking online pathology tests.
+
+</p>
+                   <p> <strong>Practo Associate Labs provides services to the following cities:</strong>Practo Associate Labs provides services to the following cities: Bangalore, Hyderabad, Chennai, Mumbai, Delhi, Pune, Kolkata, Navi Mumbai, Thane, Gurgaon, Noida, Ahmedabad, Chandigarh, Ghaziabad, Indore, Jaipur, Lucknow, Patna, Ernakulam, Bhubaneswar and Coimbatore.</p>
+                   </div>
+               </Container>
+               <br />
+               <p className="p">This site is protected by reCAPTCHA and the Google <strong>Privacy Policy</strong> and <strong>Terms of Service</strong> apply.</p>
         </div>
     )
 }
