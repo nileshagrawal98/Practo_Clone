@@ -6,7 +6,7 @@
 
 # Video link:
  #### we have shared a demo presentation of this project "Practo_Clone".
-(.....)
+https://drive.google.com/file/d/18NGG6ozX33ye8ID9SrLtFRnVeUY-_Z_a/view?usp=sharing
 
 # Technology We Used :computer:
 > Tech Stack in Frontend:
