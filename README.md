@@ -117,9 +117,9 @@ We created cloud database using MongoDb Atlas. So, if you want to run our code t
 # Authors
 
 ### Nilesh Agarwal :boy:
->  [Linkedin](https://www.linkedin.com/in/) 
+>  [Linkedin](https://www.linkedin.com/in/nilesh-kumar-agrawal/) 
     
->  [GitHub](https://github.com//)
+>  [GitHub](https://github.com/nileshagrawal98)
 
 ### Suraj Kumar :boy:
 >  [Linkedin](https://www.linkedin.com/in/)
