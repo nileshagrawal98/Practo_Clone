@@ -1,7 +1,7 @@
 import { useState } from "react"
 import React from "react";
 import { useEffect } from "react"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 
 import { Counter } from "./Counter"
 
@@ -85,7 +85,9 @@ export const Cart = () => {
                         <h4>Payable Amount: ₹ {pay} </h4>
                     </div>
                     <div className="checkoutbtn">
-                        <button>Checkout</button>
+
+                        <button><Link to={`/address?amount=${pay}`}>Checkout</Link></button>
+
                     </div>
                 </div>
 

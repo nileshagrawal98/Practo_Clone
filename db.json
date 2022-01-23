@@ -227,24 +227,114 @@
   ],
   "cart": [
     {
-      "title": "Skinshine Fairness Soap 75 g",
-      "manufactured": "Cadila Pharmaceuticals Ltd.",
-      "price": 68,
-      "price1": 80,
-      "image": "https://www.practostatic.com/practopedia-images/v3/res-150/skinshine-soap-75gm_3107d4cc-822d-42e8-95d1-7d046f9ee4ea.JPG",
-      "packsize": "100 g",
-      "unitcount": "75 GM SHOP",
-      "discount": "15% off",
-      "Highlights": "This soap is very much effective in fighting acne.",
-      "Highlights1": "It reduces sebum and oil secretions on your face.",
-      "Highlights2": "It clears dead cells from your skin.",
-      "Highlights3": "It helps in improving whitening and complexion of the skin.",
-      "dec": "Skinshine Fairness Soap is an all round skin cleanser. It is very good in fighting against pimples and improving the complexion of the skin.",
-      "direaction": "To be used only after the skin is wet. Massage and spread the foam on the skin. Leave it on the skin, wait for some time and wash well.",
+      "title": "Azac Soap 75 g",
+      "manufactured": "Mark (India) Cosmed Pvt. Ltd.",
+      "price": 71,
+      "price1": 90,
+      "image": "https://www.practostatic.com/ecommerce-assets/static/media/placeholder_product.39dd65c8.png",
+      "packsize": "75 g",
+      "unitcount": "1 PERSONAL CARE",
+      "discount": "5% off",
+      "Highlights": "It is used for the treatment of all grades of acne with its multi-action and also improves skin fairness.",
+      "Highlights1": "It maintains skin moisture and keeps skin hydrated, thereby preventing dry skin conditions.",
+      "Highlights2": "It improves the skin tone and also helps to get rid of the dead cells.",
+      "Highlights3": "",
+      "dec": "Azac Soap is an antibacterial soap used for the treatment of all grades of acne which comprises of azelaic acid and wheat germ oil.",
+      "direaction": "Azac Soap is used for treating acne and other skin conditions. It helps in skin softening and soothing, hydrates the skin, improves skin tone, and prevents skin dryness and aging. Azac Soap is recommended for all age groups.",
       "storage": "Store this syrup at room temperature protected from sunlight, heat, and moisture. Keep away from reaching out of children and pets. Ensure that the unused medicine is disposed of properly.",
-      "warning": "This is not recommended for the pregnant women and lactating mothers.",
-      "precaution": "For external use only.",
-      "id": 3
+      "id": 6
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr. Aditi Shukla",
+      "speciality": "Dentist",
+      "experience": 9,
+      "location": "Sunder Nagar, Raipur",
+      "clinic": "Aditi Dental Clinic",
+      "consultationFees": 200,
+      "profilePic": "https://imagesx.practo.com/providers/aaf8d65a-1b39-47de-9eac-031fc4888b4a.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Vivek Agrawal",
+      "speciality": "Dentist",
+      "experience": 24,
+      "location": "Samta Colony, Raipur",
+      "clinic": "Radiant Dental Clinic Laser And Implant Centre",
+      "consultationFees": 500,
+      "profilePic": "https://imagesx.practo.com/providers/331a138a-737f-4a5d-93bb-13224627c8eb.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Jitendra Saraf",
+      "speciality": "Dentist",
+      "experience": 11,
+      "location": "Samta Colony, Raipur",
+      "clinic": "Sita Memorial Multispeciality Dental Clinic",
+      "consultationFees": 300,
+      "profilePic": "https://imagesx.practo.com/providers/a37dd43a-f4a0-402c-a60f-ab150ae902a0.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Yogesh Sahu",
+      "speciality": "Dentist",
+      "experience": 18,
+      "location": "Samta Colony, Raipur",
+      "clinic": "My smile Multi Speciality Dental Clinic",
+      "consultationFees": 300,
+      "profilePic": "https://imagesx.practo.com/providers/815cef7a-5960-487a-a1fd-be273bc2066a.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Raghav Agrawal",
+      "speciality": "Bone",
+      "experience": 11,
+      "location": "Samta Colony, Raipur",
+      "clinic": "Shri Ram Dental Clinic",
+      "consultationFees": 200,
+      "profilePic": "https://imagesx.practo.com/providers/ce379c3f-a33e-4f01-987b-8108b01fc494.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Swati Mehrotra",
+      "speciality": "Gynecologist/Obstetrician",
+      "experience": 11,
+      "location": "Naraina Vihar, Delhi",
+      "clinic": "Gyn Clinic",
+      "consultationFees": 600,
+      "profilePic": "https://imagesx.practo.com/providers/a0319981-b776-463f-a3c5-617769db88a6.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Yuvakshi Juneja",
+      "speciality": "Gynecologist/Obstetrician",
+      "experience": 40,
+      "location": "Safdarjung Enclave, Delhi",
+      "clinic": "Dr Yuvakshi Juneja Clinic",
+      "consultationFees": 1000,
+      "profilePic": "https://imagesx.practo.com/providers/0f3c4c56-4870-4f57-bdc0-36c55ef1eb8b.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Sushmita Mukherjee",
+      "speciality": "Gynecologist/Obstetrician",
+      "experience": 33,
+      "location": "Old Palasia, Indore",
+      "clinic": "Dr Yuvakshi Mukherjee's Fertility & Laparoscopic Clinic",
+      "consultationFees": 600,
+      "profilePic": "https://imagesx.practo.com/providers/a422d7d8-c6d3-4cd7-a98e-df336584d313.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Shishir Gupte",
+      "speciality": "General Physician",
+      "experience": 40,
+      "location": "Indore City-2, Indore",
+      "clinic": "Dr Shishir Gupte Clinic",
+      "consultationFees": 600,
+      "profilePic": "https://imagesx.practo.com/providers/057b94ea-17ec-4515-ab43-1c2901457331.jpg?i_type=t_100x100-2x"
+    },
+    {
+      "name": "Dr. Vimarsh Gupta",
+      "speciality": "General Physician",
+      "experience": 3,
+      "location": "Sukhliya, Indore",
+      "clinic": "Avsar Clinic And Research Centre",
+      "consultationFees": 300,
+      "profilePic": "https://imagesx.practo.com/providers/ae1ddc56-e4e8-48ce-a921-d736226949ce.jpg?i_type=t_100x100-2x"
     }
   ]
 }
