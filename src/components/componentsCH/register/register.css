@@ -1,12 +1,12 @@
-body{
-    font-family: "Camphor" ;
+body {
+    font-family: "Camphor";
 }
 
-.register{
+.register {
     width: 350px;
     height: 400px;
     margin-top: 2rem;
-    background:rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16p rgb(0 0 0 / 10%);
     border-radius: 8px;
@@ -14,23 +14,26 @@ body{
     /* align-items: center; */
     text-align: center;
 }
-.total{
+
+.total {
     display: flex;
     height: 500px;
     margin-top: 2rem;
 }
 
-.Heading{
+.Heading {
     display: flex;
 }
-.Heading > h4{
-    color:rgb(95, 94, 94);
+
+.Heading>h4 {
+    color: rgb(95, 94, 94);
 }
-.Heading > p{
+
+.Heading>p {
     margin-left: 5rem;
 }
 
-.register > input{
+.register>input {
     border-radius: 8px;
     border: 1px solid rgb(190, 190, 190);
     outline: none;
@@ -43,7 +46,7 @@ body{
 
 
 
-.register > .button{
+.register>.button {
     background: #4086e2;
     border: 1px solid #3e7ed1;
     color: #fff;
@@ -55,20 +58,22 @@ body{
     cursor: pointer;
 }
 
-p{
+/* p{
     text-align: left;
     font-size: small;
     color: rgb(173, 173, 173);
     margin-left: 1%;
-}
-.check{
+} */
+.check {
     display: flex;
     margin-left: -10rem;
 }
-.checkbox{
+
+.checkbox {
     margin-left: -0.5rem;
 }
-label{
+
+label {
     text-align: left;
     margin-top: 0.5rem;
     margin-left: -10rem;
@@ -76,13 +81,15 @@ label{
     font-size: 12px;
     color: rgb(168, 168, 168);
 }
-.smallp{
+
+.smallp {
     margin-top: 0.5rem;
     margin-left: 2.3rem;
     margin-bottom: 2rem;
     font-size: 10px;
 }
-.smalla{
+
+.smalla {
     text-decoration: none;
     color: rgb(20, 182, 247)
 }
