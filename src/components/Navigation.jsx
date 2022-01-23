@@ -69,9 +69,11 @@ export const Navigation = () => {
                         </MenuItem>
                     </MenuList>
                 </Menu>
-                <button className="btn-login">
-                    Login / Signup
-                </button>
+                <Link to="/Auth">
+                    <button className="btn-login">
+                        Login / Signup
+                    </button>
+                </Link>
             </div>
         </nav>
     </div>
