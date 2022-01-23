@@ -12,8 +12,10 @@
 > Tech Stack in Frontend:
 1. React Js
 2. Bootstrap
-3. Redux
-4. Chakra UI
+3. CSS3
+4. HTML
+5. Redux
+6. Chakra UI
 
 
 > Tech Stack in Backend:
@@ -21,6 +23,18 @@
 2. CSS3
 3. Node JS
 4. Express JS
+
+
+# Features
+1. You will get fitness and health care related products.
+
+2. Online consulting with doctors for any kind of health problems.
+
+3. Order health products to your address.
+
+4. Get information of any disease or health issue along with preferred doctors.
+
+
 
 
 
