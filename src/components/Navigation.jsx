@@ -25,7 +25,7 @@ export const Navigation = () => {
                         <div>Practo Pharmacy</div>
                     </div>
                 </Link>
-                <Link to="/doctors">
+                <Link to="/tests">
                     <div className="div-nav-middle-item">
                         <div>Lab Tests</div>
                         <div>Book tests & checkup</div>

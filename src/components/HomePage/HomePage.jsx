@@ -1,4 +1,5 @@
 import { Button, Input, InputGroup, InputLeftAddon } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import { AppoinmentSlider } from './AppoinmentSlider'
 import { ArticleCard } from './ArticleCard'
 import { ConsultCard } from './ConsultCard'
@@ -56,15 +57,21 @@ export const HomePage = () => {
         <section className="home-facilities">
             <FacilityCard image={process.env.PUBLIC_URL + '/images/instant_video_consulation.webp'} background="#AFCFED" title="Instant Video Consultation" sub="Connect within 60 secs" />
             <FacilityCard image={process.env.PUBLIC_URL + '/images/find_doctors.webp'} background="#98CBD6" title="Find Doctors Near You" sub="Confirmed appoinments" />
-            <FacilityCard image={process.env.PUBLIC_URL + '/images/home_medicines.webp'} background="#ccd0db" title="Medicines" sub="Essentials at your doorstep" />
-            <FacilityCard image={process.env.PUBLIC_URL + '/images/lab_tests.png'} background="#afcfed" title="Lab Tests" sub="Sample pickup at your home" />
+            <Link to="/medicines">
+                <FacilityCard image={process.env.PUBLIC_URL + '/images/home_medicines.webp'} background="#ccd0db" title="Medicines" sub="Essentials at your doorstep" />
+            </Link>
+            <Link to="/tests">
+                <FacilityCard image={process.env.PUBLIC_URL + '/images/lab_tests.png'} background="#afcfed" title="Lab Tests" sub="Sample pickup at your home" />
+            </Link>
             <FacilityCard image={process.env.PUBLIC_URL + '/images/home_surgeries.webp'} background="#d5d8fc" title="Surgeries" sub="Safe and trusted surgery centers" />
         </section>
         <section className="home-consult">
             <h2>Consult top doctors online for any health concern</h2>
             <p>Private online consultations with verified doctors in all spedialties</p>
             <div className="home-consult-card-container">
-                <ConsultCard title="Period doubts or Pregnancy" image={process.env.PUBLIC_URL + '/images/home_irregular_painful_period.webp'} />
+                <Link to="/search/doctors?speciality=Gynecologist/obstetrician&location=">
+                    <ConsultCard title="Period doubts or Pregnancy" image={process.env.PUBLIC_URL + '/images/home_irregular_painful_period.webp'} />
+                </Link>
                 <ConsultCard title="Acne, pimple or skin issues" image={process.env.PUBLIC_URL + '/images/home_acne.webp'} />
                 <ConsultCard title="Performance issues in bed" image={process.env.PUBLIC_URL + '/images/home_performance_issues.svg'} />
                 <ConsultCard title="Cold, cough or fever" image={process.env.PUBLIC_URL + '/images/home_coughing.webp'} />
