@@ -114,7 +114,32 @@ We created cloud database using MongoDb Atlas. So, if you want to run our code t
 
 
 
+# Authors
 
+### Nilesh Agarwal :boy:
+>  [Linkedin](https://www.linkedin.com/in/) 
+    
+>  [GitHub](https://github.com//)
+
+### Suraj Kumar :boy:
+>  [Linkedin](https://www.linkedin.com/in/)
+
+>  [GitHub](https://github.com/)
+
+### Harish Reyya :boy:
+>  [Linkedin](https://www.linkedin.com/in/r-harish-832793218)
+
+>  [GitHub](https://github.com/harishreyya/)
+
+### Chandu susma:boy:
+>  [Linkedin](https://www.linkedin.com/in/)
+
+>  [GitHub](https://github.com//)
+
+### Akshay :boy:
+>  [Linkedin](https://www.linkedin.com/in/)
+
+>  [GitHub](https://github.com/)
 
 
 
