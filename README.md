@@ -122,7 +122,7 @@ We created cloud database using MongoDb Atlas. So, if you want to run our code t
 >  [GitHub](https://github.com/nileshagrawal98)
 
 ### Suraj Kumar :boy:
->  [Linkedin](https://www.linkedin.com/in/)
+>  [Linkedin](https://www.linkedin.com/in/surajkr1999/)
 
 >  [GitHub](https://github.com/)
 
@@ -134,7 +134,7 @@ We created cloud database using MongoDb Atlas. So, if you want to run our code t
 ### chandra shekar:boy:
 >  [Linkedin](https://www.linkedin.com/in/chandrashekar-kusuma-49b65219a/)
 
->  [GitHub](https://github.com/chandukusuma/)
+>  [GitHub](https://github.com/surajmasai)
 
 ### Akshaykumar Gullapalli :boy:
 >  [Linkedin](https://www.linkedin.com/in/akshaykumar-gullapalli-516916176)
