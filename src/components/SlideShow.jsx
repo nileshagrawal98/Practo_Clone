@@ -1,4 +1,5 @@
 import { Slide } from "react-slideshow-image";
+import React from "react";
 import "react-slideshow-image/dist/styles.css";
 import './Medicines.css'
 
