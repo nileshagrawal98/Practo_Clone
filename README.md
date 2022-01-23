@@ -101,6 +101,17 @@ After successful payment, this page confirms you that your order is placed.
 <img width="909" alt="payment2" src="">
 
 
+## Instructions to Run the Code 
+#### Note:
+We created cloud database using MongoDb Atlas. So, if you want to run our code then please read the instructions below :
+- Clone our repository ``
+- Open terminal in your VS Code and run the command `npm install` which will install all packages.
+- Open terminal in your VS Code and run the command `npm start` 
+- Open corresponding terminal in your VS Code and run the command `json-server db.json --port 3001 --watch`
+- It will redirect to browser
+- Now you can see `landing page` 
+- Then you can Navigate through other pages from Landing page to `Medicine`, `Lab` etc
+
 
 
 
