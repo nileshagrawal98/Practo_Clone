@@ -35,6 +35,74 @@
 4. Get information of any disease or health issue along with preferred doctors.
 
 
+# Roles and Responsibilities
+
+
+### Login and Sign up Page:
+User need to login before purchasing products from “lybrate”. If user's are existing user they can login and if they are not existing user then they can register using sign up.
+
+
+
+##### login page:
+To login User has to enter their Phone number and password to log into the website.
+
+<img width="911" alt="loginpage" src="">
+
+
+##### Sign Up page:
+To signup User has to register the by entering their name , email, phone number, password and then click on the "create account" button. You are now succesfully logged In.
+
+<img width="913" alt="signuppage" src="">
+
+
+### Landing Page:
+You are on our Landing page now. you get to see what are things our website provides you like exploring 
+Find Doctors, Video Consult, Medicines, Lab Tests and etc.
+##### Search tab:
+we have used debouncing that helps to search the information.
+
+<img width="913" alt="searchbutton" src="">
+
+
+### Medicines:
+You can see the GoodKart page by just clicking on the "GoodKart  icon" on the navigation bar. On cliking you can get yourself the latest stuff of health products. click on the item and by selecting the quantity, just add to cart by clicking on "add to cart icon".
+
+###### As, you can see the below grid which allows you to choose any categories from here to shop and explore further.
+
+<img width="856" alt="categories" src="">
+
+#### shop by Categories:
+On clicking on shop by categories. You are re-directed to the products page having filters like price high to low and vice-versa.
+
+<img width="912" alt="shopcategory" src="">
+
+
+### Cart Page:
+Now you are on the cart page. After adding to cart you are now able to see the order summary. you can here increase the item quantity as well as use coupon code to get discount on selected products. Thereafter, click on the "proceed to checkout" to go further.
+
+<img width="911" alt="cart" src="">
+
+
+### Add Address:
+You can enter your location accordingly now and then place the order.
+
+<img width="913" alt="address" src="">
+
+### Payment page:
+You are now on the payment page after placing the order. You can pay by cash on delivery and by using your debit or credit card by just entering card holder's name followed by the card number, Expire date and CVV. Thereafter, click on the "proceed " to get done by payment.
+
+<img width="910" alt="payment" src="">
+
+
+### Order placed:
+
+After successful payment, this page confirms you that your order is placed.
+
+<img width="909" alt="payment2" src="">
+
+
+
+
 
 
 
