@@ -132,7 +132,7 @@ We created cloud database using MongoDb Atlas. So, if you want to run our code t
 
 >  [GitHub](https://github.com/harishreyya/)
 
-### chandra shekar:boy:
+### Chandra shekar:boy:
 >  [Linkedin](https://www.linkedin.com/in/chandrashekar-kusuma-49b65219a/)
 
 >  [GitHub](https://github.com/surajmasai)
