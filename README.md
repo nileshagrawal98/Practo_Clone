@@ -15,7 +15,7 @@ https://drive.google.com/file/d/18NGG6ozX33ye8ID9SrLtFRnVeUY-_Z_a/view?usp=shari
 3. CSS3
 4. HTML
 5. Redux
-6. Chakra UI
+6. Chakra UI   
 
 
 > Tech Stack in Backend:
